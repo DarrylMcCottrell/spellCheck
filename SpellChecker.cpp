@@ -145,7 +145,7 @@ void SpellChecker::characterReplace(string w,
         {
             //store the misspelled word in 
             //a temporary string
-            tempString = w;
+            tempString = w; //Is the temporary string a w? Is that the only letter it's counting if the alphabet?
 
             //replace each letter with a new letter of the alphabet
             tempString[letterCounter] = keys[alphaCounter];

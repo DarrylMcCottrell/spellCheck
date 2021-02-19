@@ -87,3 +87,10 @@ void InputFile::makeLowerCase()
 		}
 	}
 }
+
+
+//COMMENTS: The inputfile comment on line 10 is being referred to as a dictionary
+//Line 23-36, couldn't you just put the complete infile in the while loop?
+//Line 25-26, Memory leak is possible because temp isn't being deleted.
+//More preference based but couldn't you just make removing a punctuation one whole function instead of 2 complete different ones
+//for loop in line 57 is off it's not matching the size of the string punchMarks[]

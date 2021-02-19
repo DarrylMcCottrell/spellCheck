@@ -72,3 +72,9 @@ void Dictionary::addWordToDictionary(const string w)
 {
 	dictionary.push_back(w);
 }
+
+
+//In this .cpp file I thought that the code was seemed straight forward when searching for a word in the dictionary I don't 
+//think it would be anything to major I would change within this code.
+
+//I had confusion on what ctors meant on line 11 and overall there wasn't really any comments in this code so most of it was just really hard to understand
